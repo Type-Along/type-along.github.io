@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+body {
+    background-color: #F1FCFF;
+    font-family: 'Balsamiq Sans', 'Arial';
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+p {
+    font-size: 24px;
+}
