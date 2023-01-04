@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
+* {
+    font-family: "Balsamiq Sans";
+}
+
 body {
     background-color: #F1FCFF;
     font-family: 'Balsamiq Sans', 'Arial';
@@ -16,4 +20,31 @@ h2 {
 
 p {
     font-size: 24px;
+}
+
+nav, nav-list{
+    color: #003E73;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+button {
+    padding: 18px;
+    border-radius: 100px;
+}
+
+.fill {
+    border: none;
+    background-color: #A8E5B0;
+}
+
+.outline {
+    border-width: 2.5px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: #A8E5B0;
 }
