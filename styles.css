@@ -12,6 +12,7 @@ body {
     margin: 0px;
 }
 
+
 h1 {
     font-style: normal;
     font-weight: 700;
@@ -19,8 +20,7 @@ h1 {
     line-height: 130%;
     display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
 }
 
 h2 {
@@ -30,6 +30,7 @@ h2 {
     line-height: 130%;
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 p {
@@ -38,57 +39,87 @@ p {
     line-height: 150%;
 }
 
-nav{
-    color: #003E73;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+    margin: 15px 45px;
 }
 
-a {
+
+li, a, button {
     text-decoration: none;
+}
+
+nav, .home-btn {
+    margin: none;
+    padding: none;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
     color: black;
-    font-weight: bold;
-}
-
-button {
-    padding: 18px;
-    border-radius: 100px;
-}
-
-.fill {
-    border: none;
-    background-color: #A8E5B0;
-}
-
-.outline {
-    border-width: 2.5px;
-    border-style: solid;
-    background-color: transparent;
-    border-color: #A8E5B0;
 }
 
 .logo_img{
     height: 100px;
 }
 
-/* Feel free to reuse this style for section 2 & 3 
-
-.sec3 > h1 {
-    justify-content: center;
-    margin-top: 150px;
-    margin-bottom: 65px;
+.home_btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
-.sec4 > h1 {
-    justify-content: center;
-    margin-top: 150px;
-    margin-bottom: 65px;
+main {
+    display: flex;
+    padding: 0px 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    background-image: linear-gradient(to right, #F2FEFD, #AFD6D1);
+    height: 100vh;
+    justify-content: space-between;
+    width: 100%;
 }
 
-*/
+.hero-img {
+    height: 100%;
+}
 
-.sec5 > h1 {
-    justify-content: center;
-    margin-top: 150px;
-    margin-bottom: 65px;
+.text-container{
+    margin-right: 80px;
+}
+
+.hero-cta {
+    display: inline-block;
+    color: black;
+    padding: 20px 30px;
+    background: #A8E5B0;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+section {
+    margin: 100px 45px;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    color: #349F87;
+    font-weight: bold;
 }
 
 .sec4 {
@@ -129,6 +160,12 @@ button {
     flex-direction: row;
     z-index: 1;
     transform: translateY(50%);
+}
+
+.sec5 > h1 {
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 65px;
 }
 
 .sec5text {
@@ -219,3 +256,92 @@ footer.page-footer {
     height: 70px;
     width: 70px;
 }
+
+.section-img {
+    max-width: 40%;
+}
+
+@media screen and (max-width:1180px) {
+    h1 {
+        font-size: 56px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 18px;
+    }
+    a {
+        font-size: 18px;
+    }
+    .hero-img {
+       height: 80%;
+    }
+
+    .section-img {
+        background-size: contain
+    }
+}
+
+@media screen and (max-width:900px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    a {
+        font-size: 16px;
+    }
+    .hero-img {
+        height: 60%;
+     }
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    p {
+        font-size: 12px;
+        text-align: center;
+    }
+    a {
+        font-size: 12px;
+    }
+    section{ 
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo_img {
+        height: 50px;
+    }
+    .hero-img {
+        height: 45%;
+     }
+}
+
+/* Feel free to reuse this style for section 2 & 3 
+
+.sec3 > h1 {
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 65px;
+}
+
+.sec4 > h1 {
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 65px;
+}
+
+*/
