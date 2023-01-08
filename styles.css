@@ -44,8 +44,9 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0px;
-    padding: 0;
-    margin: 1vh 2%;
+    padding: 1vh 2%;
+    position:relative;
+    background-color: #F1FCFF;
 }
 
 
@@ -85,7 +86,6 @@ nav, .home-btn {
 main {
     display: flex;
     padding: 0% 0% 0% 4%;
-    margin-top: 10px;
     margin-bottom: 20px;
     align-items: center;
     background-image: linear-gradient(to right, #F2FEFD, #AFD6D1);
