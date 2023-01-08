@@ -7,6 +7,8 @@
    
     margin:0px;
     padding:0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 h1 {
     
@@ -71,7 +73,9 @@ p {
     font-size: 56px;
     line-height: 72.8px;
 }
-
+#headingContainerFour {
+    font-size: 56px;
+}
 .container-two {
    
     
@@ -79,7 +83,7 @@ p {
 
 .container {
     display: flex;
-    
+    flex:1
 }
 
 .container-three {
@@ -87,7 +91,34 @@ p {
     
 }
 
+@media screen and (max-height: 1280px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 20px !important; 
+    }
 
+    img {
+        max-width: 50% !important;
+    }
+
+   #containerFourContent {
+    padding-right: 200px;
+   }
+
+   #containerThreeContent {
+    padding-right: 200px;
+   }
+
+   #containerOneContent {
+    padding-right: 200px;
+   }
+
+   #testing_mockup {
+    padding-right: 20px;
+   }
+}
 
 .container-two-text {
     width: 616px;
@@ -150,4 +181,8 @@ p {
     margin-top: 100px;
     
     
+}
+
+#test {
+    font-size: 56px;
 }
