@@ -36,7 +36,7 @@ h2 {
 p {
     font-size: 24px;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 170%;
 }
 
 header {
@@ -45,7 +45,7 @@ header {
     align-items: center;
     margin: 0px;
     padding: 0;
-    margin: 15px 45px;
+    margin: 20px 2%;
 }
 
 
@@ -84,35 +84,37 @@ nav, .home-btn {
 
 main {
     display: flex;
-    padding: 0px 45px;
+    padding: 0% 0% 0% 4%;
     margin-top: 10px;
     margin-bottom: 20px;
     align-items: center;
     background-image: linear-gradient(to right, #F2FEFD, #AFD6D1);
-    height: 100vh;
+    height: 101vh;
     justify-content: space-between;
-    width: 100%;
 }
 
 .hero-img {
-    height: 100%;
+    max-width: 100%;
 }
 
 .text-container{
-    margin-right: 80px;
+    margin-right: auto;
+    transform: translateY(-5%);
+    width: 55%;
+
 }
 
 .hero-cta {
     display: inline-block;
     color: black;
-    padding: 20px 30px;
+    padding: 25px 25px;
     background: #A8E5B0;
     border-radius: 100px;
     font-weight: bold;
 }
 
 section {
-    margin: 100px 45px;
+    margin: 8%;
     display: flex;
     align-items: center;
 }
@@ -127,9 +129,7 @@ span {
     flex-direction: row;
     justify-content: center;
     flex-wrap: nowrap;
-    padding-left: 5%;
-    padding-right: 5%;
-    
+    margin-top: 10vh;
 }
 
 .sec4img {
@@ -140,7 +140,6 @@ span {
 
 .sec4text {
     float: left;
-    padding-right: 30px;
 }
 
 .sec5 {
@@ -164,7 +163,6 @@ span {
 
 .sec5 > h1 {
     justify-content: center;
-    margin-top: 150px;
     margin-bottom: 65px;
 }
 
@@ -261,6 +259,7 @@ footer.page-footer {
     max-width: 40%;
 }
 
+/*
 @media screen and (max-width:1180px) {
     h1 {
         font-size: 56px;
@@ -329,6 +328,8 @@ footer.page-footer {
         height: 45%;
      }
 }
+
+*/
 
 /* Feel free to reuse this style for section 2 & 3 
 
