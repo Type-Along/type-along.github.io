@@ -118,6 +118,36 @@ p {
    #testing_mockup {
     padding-right: 20px;
    }
+
+   
+}
+
+@media screen and (width: 2560px) and (height:1440px){
+    .container-one {
+        margin-left: 400px;
+       }
+
+       h1 {
+        font-size: 150px;
+    }
+    h2 {
+        font-size: 80px !important; 
+        overflow-y: hidden;
+
+    }
+
+    img {
+       height: 100%;
+       width: 600px !important;
+    }
+
+    p {
+        font-size: 50px;
+        overflow-y: hidden;
+       
+    }
+
+    
 }
 
 .container-two-text {
