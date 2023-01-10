@@ -49,6 +49,9 @@ header {
     background-color: #F1FCFF;
 }
 
+.home {
+    color: #287565;
+}
 
 li, a, button {
     text-decoration: none;
@@ -57,6 +60,30 @@ li, a, button {
 nav, .home-btn {
     margin: none;
     padding: none;
+}
+
+.iframe {
+    position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
 }
 
 .nav-links {
