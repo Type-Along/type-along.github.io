@@ -326,16 +326,16 @@ footer.page-footer {
 
 @media screen and (max-width: 2000px) {
     h1 {
-        font-size: 72px;
+        font-size: 56px;
     }
     h2 {
-        font-size: 64px;
+        font-size: 48px;
     }
     p {
-        font-size: 34px;
+        font-size: 28px;
     }
     a {
-        font-size: 26px;
+        font-size: 28px;
     }
     .sec5text {
         font-size: 48px;
@@ -345,18 +345,19 @@ footer.page-footer {
     }
 }
 
+
 @media screen and (max-width: 1500px) {
     h1 {
-        font-size: 64px;
-    }
-    h2 {
         font-size: 56px;
     }
+    h2 {
+        font-size: 48px;
+    }
     p {
-        font-size: 24px;
+        font-size: 16px;
     }
     a {
-        font-size: 18px;
+        font-size: 16px;
     }
     .sec5text {
         font-size: 34px;
