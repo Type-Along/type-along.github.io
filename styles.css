@@ -62,28 +62,34 @@ nav, .home-btn {
     padding: none;
 }
 
-.iframe {
-    position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll; 
+
+.contact-form {
+    display: block;
+    border: none;
+    height: calc(100vh - 30px);
+    width: 100%;
 }
 
-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll; 
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.video-spacer {
+    height: 100vh;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.video-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 .nav-links {
@@ -118,6 +124,10 @@ main {
     background-image: linear-gradient(to right, #F2FEFD, #AFD6D1);
     height: 100vh;
     justify-content: space-between;
+}
+
+.hero-text{
+    width: 125%;
 }
 
 .hero-img {
